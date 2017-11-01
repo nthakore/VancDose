@@ -167,15 +167,3 @@ struct VancomycinDosage {
         return Result(patientInitials: patientInitials, crcl: crcl, loadingDose: loadingDose, traditionalDosingAmount: traditionalDosingAmount, traditionalDosingInterval: traditionalDosingInterval, highDosingAmount: highDosingAmount, highDosingInterval: highDosingInterval, uniqueIdentifier: UUID().uuidString)
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
