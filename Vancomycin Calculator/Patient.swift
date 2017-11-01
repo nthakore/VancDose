@@ -44,6 +44,3 @@ struct Patient {
         }  
     }
 }
-
-
-

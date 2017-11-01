@@ -10,7 +10,6 @@ import Foundation
 import FMDB
 
 class VancomycinResultStorage: ResultStorage {
-    
     static let sharedInstance = VancomycinResultStorage()
     
     fileprivate var database: FMDatabase?
@@ -87,6 +86,3 @@ class VancomycinResultStorage: ResultStorage {
         }
     }
 }
-
-
-
